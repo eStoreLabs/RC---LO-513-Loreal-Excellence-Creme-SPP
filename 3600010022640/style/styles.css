@@ -978,7 +978,8 @@ body {
   text-transform: uppercase;
   font-weight: 200;
 }
-@media screen and (min-width: 500px) {
+
+@media screen and (min-width: 1200px) {
   #es-loreal.es-loreal .es-formula {
     min-height: 350px;
     background-size: cover;
@@ -1019,8 +1020,9 @@ body {
   #es-loreal.es-loreal .es-ba__disclaimer {
     font-size: 7px;
   }
-}
-@media screen and (min-width: 560px) {
+
+  /* 500px */
+
   #es-loreal.es-loreal .es-video__player--mobile {
     display: none;
   }
@@ -1034,8 +1036,9 @@ body {
   #es-loreal.es-loreal .es-video__play-button--desktop {
     display: block;
   }
-}
-@media screen and (min-width: 620px) {
+
+  /* 560px */
+
   #es-loreal.es-loreal .es-cross__product {
     width: 130px;
   }
@@ -1093,8 +1096,8 @@ body {
     max-width: 300px;
     font-size: 20px;
   }
-}
-@media screen and (min-width: 760px) {
+  /* 620px */
+
   #es-loreal.es-loreal .es-kv {
     min-height: 415px;
     display: flex;
@@ -1233,8 +1236,37 @@ body {
   #es-loreal.es-loreal .es-footer__texts {
     flex: 2;
   }
-}
-@media screen and (min-width: 900px) {
+
+  .es-kv__packshot {
+    margin-left: -390px;
+    margin-top: -162px;
+    padding: 0;
+  }
+
+  .es-ba__single {
+    max-width: 300px;
+  }
+  .es-cross__link {
+    padding: 12px 48px;
+    overflow: hidden;
+  }
+
+  .es-kv {
+    background-size: 100%;
+  }
+  .es-kv__title {
+    font-size: 36px;
+    min-width: 508px;
+    letter-spacing: -5px;
+    margin-bottom: 50px;
+  }
+  .es-kv__imgPackshot {
+    width: 262px;
+    margin-right: 100px;
+  }
+
+  /* 760px */
+
   #es-loreal.es-loreal .es-kv__img-description-1 {
     position: absolute;
     display: block;
@@ -1454,8 +1486,8 @@ body {
     right: 0;
     bottom: -100px;
   }
-}
-@media screen and (min-width: 1300px) {
+  /* 900px */
+
   #es-loreal.es-loreal .es-kv {
     background-position: -70px;
   }
@@ -1504,37 +1536,6 @@ body {
   font-size: 22px;
 }
 
-@media screen and (min-width: 760px) {
-  .es-kv {
-    background-size: 100%;
-  }
-  .es-kv__title {
-    font-size: 36px;
-    min-width: 508px;
-    letter-spacing: -5px;
-    margin-bottom: 50px;
-  }
-  .es-kv__imgPackshot {
-    width: 262px;
-    margin-right: 100px;
-  }
-}
-@media screen and (min-width: 760px) and (min-width: 768px) {
-  .es-kv__packshot {
-    margin-left: -390px;
-    margin-top: -162px;
-    padding: 0;
-  }
-}
-@media screen and (min-width: 760px) {
-  .es-ba__single {
-    max-width: 300px;
-  }
-  .es-cross__link {
-    padding: 12px 48px;
-    overflow: hidden;
-  }
-}
 @keyframes slidedown {
   from {
     opacity: 0;
