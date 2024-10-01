@@ -497,7 +497,7 @@ body {
   display: block;
   max-width: 100%;
   margin: 0 auto;
-  min-height: 300px;
+  min-height: 250px;
   object-fit: cover;
 }
 #es-loreal.es-loreal .es-routine {
@@ -540,9 +540,9 @@ body {
 }
 #es-loreal.es-loreal .es-routine__link {
   display: block;
-  padding: 15px 40px;
+  padding: 15px 25px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
@@ -977,6 +977,18 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 200;
+}
+
+#es-loreal.es-loreal .es-routine__text-group {
+  top: 5%;
+  left: 3%;
+}
+#es-loreal.es-loreal .es-routine__title {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+#es-loreal.es-loreal .es-routine__subtitle {
+  font-size: 18px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1523,17 +1535,22 @@ body {
   #es-loreal.es-loreal .es-howto__item-subtitle {
     min-height: 50px;
   }
-}
-#es-loreal.es-loreal .es-routine__text-group {
-  top: 15%;
-  left: 5%;
-}
-#es-loreal.es-loreal .es-routine__title {
-  font-size: 22px;
-  margin-bottom: 0;
-}
-#es-loreal.es-loreal .es-routine__subtitle {
-  font-size: 22px;
+
+  #es-loreal.es-loreal .es-routine__title {
+    font-size: 22px;
+  }
+  #es-loreal.es-loreal .es-routine__subtitle {
+    font-size: 22px;
+  }
+
+  #es-loreal.es-loreal .es-routine__link {
+    padding: 15px 40px;
+  }
+
+  #es-loreal.es-loreal .es-routine__text-group {
+    top: 15%;
+    left: 5%;
+  }
 }
 
 @keyframes slidedown {
